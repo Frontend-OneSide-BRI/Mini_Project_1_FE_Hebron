@@ -1,0 +1,22 @@
+[
+  {
+    "category": "sports",
+    "title": "Runner",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "category": "food",
+    "title": "Dish on gray bowl",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "category": "gaming",
+    "title": "Room with arcade machines",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2FtaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "category": "coding",
+    "title": "Black laptop on bed",
+    "image": "https://images.unsplash.com/photo-1595776613215-fe04b78de7d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nJTIwc2V0dXB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+  }
+]

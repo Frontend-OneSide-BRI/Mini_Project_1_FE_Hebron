@@ -18,6 +18,22 @@ fetch("./src/data/data.json")
         </div>
       </div>`
 
+      div.setAttribute("data-bs-toggle", "offcanvas")
+      div.setAttribute("data-bs-target", "#offcanvasExample")
+
+      div.addEventListener("click", () => {
+        const offCanvas = document.querySelector("#offcanvasExample")
+
+        offCanvas.innerHTML = `<div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Detail Photo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <img src=${d.image} class="w-100"/>
+          <h5 class="m-2">${d.title}</h5>
+        </div>`
+      })
+
       categoryContainer.appendChild(div)
     })
   })
@@ -64,6 +80,22 @@ function filterBySearch(keyword) {
             </div>
           </div>`
 
+          div.setAttribute("data-bs-toggle", "offcanvas")
+          div.setAttribute("data-bs-target", "#offcanvasExample")
+
+          div.addEventListener("click", () => {
+            const offCanvas = document.querySelector("#offcanvasExample")
+
+            offCanvas.innerHTML = `<div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Detail Photo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>  
+            <div class="offcanvas-body">
+              <img src=${d.image} class="w-100"/>
+              <h5 class="m-2">${d.title}</h5>
+            </div>`
+          })
+
           categoryContainer.appendChild(div)
         })
     })
@@ -89,6 +121,22 @@ function filterByCategory(category) {
             </div>
         </div>`
 
+          div.setAttribute("data-bs-toggle", "offcanvas")
+          div.setAttribute("data-bs-target", "#offcanvasExample")
+
+          div.addEventListener("click", () => {
+            const offCanvas = document.querySelector("#offcanvasExample")
+
+            offCanvas.innerHTML = `<div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Detail Photo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>  
+          <div class="offcanvas-body">
+            <img src=${d.image} class="w-100"/>
+            <h5 class="m-2">${d.title}</h5>
+          </div>`
+          })
+
           categoryContainer.appendChild(div)
         })
 
@@ -111,6 +159,22 @@ function filterByCategory(category) {
             <h5>${d.title}</h5>
             </div>
         </div>`
+
+        div.setAttribute("data-bs-toggle", "offcanvas")
+          div.setAttribute("data-bs-target", "#offcanvasExample")
+
+          div.addEventListener("click", () => {
+            const offCanvas = document.querySelector("#offcanvasExample")
+
+            offCanvas.innerHTML = `<div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Detail Photo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>  
+            <div class="offcanvas-body">
+              <img src=${d.image} class="w-100"/>
+              <h5 class="m-2">${d.title}</h5>
+            </div>`
+          })
 
           categoryContainer.appendChild(div)
         })

@@ -62,8 +62,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse w-100" id="nav-category">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 gap-5">
+          <div class="navbar-collapse w-100" id="nav-category">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 gap-lg-5">
               <li class="nav-item">
                 <a class="nav-link category-option active" aria-current="page" href="#" data-category="all">All</a>
               </li>
@@ -86,6 +86,20 @@
           </div>
         </div>
       </nav>
+
+      <!-- search -->
+      <form class="form">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="search something..."
+            aria-label="search something..."
+            aria-describedby="basic-addon2"
+          />
+          <button class="input-group-text" id="basic-addon2" type="submit">search</button>
+        </div>
+      </form>
 
       <div id="category-container" class="row g-2 mt-5"></div>
     </div>
